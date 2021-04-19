@@ -6,14 +6,12 @@
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
       <a-marker type="pattern" preset="custom" url="/virtual0047/pattern-testimage.patt">
-        <a-box
-        position="0 0 0" 
+        <a-entity
+        position="0 -1.2 0.5" 
         rotation="270 0 0" 
-        scale="1 1 0"
-        crossorigin
-        material="shader:gif;src:url(/virtual0047/girl.gif);" gif="" transparent="true" gif=""
-        >      
-      </a-box>
+        scale="0.04 0.04 0.04"
+        gltf-model="/virtual0047/xuemei.glb">     
+      </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
